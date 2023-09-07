@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:responsive_app/desktop.dart';
 import 'package:responsive_app/mobile.dart';
