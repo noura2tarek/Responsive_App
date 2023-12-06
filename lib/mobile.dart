@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_app/adaptive_indicator.dart';
-import 'package:responsive_app/constatnts.dart';
 
 class MobileScreen extends StatelessWidget {
   const MobileScreen({Key? key}) : super(key: key);
@@ -43,7 +42,7 @@ class MobileScreen extends StatelessWidget {
                   ),
                   TextFormField(
                     obscureText: true,
-                    decoration: InputDecoration(
+                    decoration: const InputDecoration(
                       labelText: 'Password',
                       border: OutlineInputBorder(),
                     ),
@@ -60,7 +59,7 @@ class MobileScreen extends StatelessWidget {
                         //width: 88.0,
                         child: MaterialButton(
                           onPressed: () {},
-                          child: Text(
+                          child: const Text(
                             'Login',
                             style: TextStyle(
                               color: Colors.white,
@@ -78,7 +77,7 @@ class MobileScreen extends StatelessWidget {
                         //  width: 93.0,
                         child: MaterialButton(
                           onPressed: () {},
-                          child: Text(
+                          child: const Text(
                             'Register',
                             style: TextStyle(
                               color: Colors.white,
