@@ -31,7 +31,7 @@ class DesktopScreen extends StatelessWidget {
                     height: 20.0,
                   ),
                   TextFormField(
-                    decoration: InputDecoration(
+                    decoration: const InputDecoration(
                       labelText: 'Email',
                       border: OutlineInputBorder(),
                     ),
@@ -41,7 +41,7 @@ class DesktopScreen extends StatelessWidget {
                   ),
                   TextFormField(
                     obscureText: true,
-                    decoration: InputDecoration(
+                    decoration: const InputDecoration(
                       labelText: 'Password',
                       border: OutlineInputBorder(),
                     ),
@@ -58,7 +58,7 @@ class DesktopScreen extends StatelessWidget {
                         width: 90.0,
                         child: MaterialButton(
                           onPressed: () {},
-                          child: Text(
+                          child: const Text(
                             'Login',
                             style: TextStyle(
                               color: Colors.white,
@@ -76,7 +76,7 @@ class DesktopScreen extends StatelessWidget {
                         width: 90.0,
                         child: MaterialButton(
                           onPressed: () {},
-                          child: Text(
+                          child: const Text(
                             'Register',
                             style: TextStyle(
                               color: Colors.white,

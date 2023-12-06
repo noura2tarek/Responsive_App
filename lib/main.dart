@@ -23,17 +23,18 @@ class MyApp extends StatelessWidget {
       ),
       home: Builder(
         builder: (BuildContext context) {
-          if(MediaQuery.of(context).size.width <= 565)
+          if(MediaQuery.of(context).size.width <= 565) {
             return MediaQuery(
                 data: MediaQuery.of(context).copyWith(
                   //textScaleFactor: 0.8,
                 ),
                 child: MobileScreen()
             );
+          }
 
          return MediaQuery(
              data: MediaQuery.of(context).copyWith(
-               textScaleFactor: 1.25,
+               textScaler: const TextScaler.linear(1.25),
              ),
              child: DesktopScreen());
 
